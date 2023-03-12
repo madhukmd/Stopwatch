@@ -1,0 +1,128 @@
+/* * {
+  border: 1px solid blue;
+} */
+.bg-container {
+  background-image: url('https://assets.ccbp.in/frontend/react-js/stopwatch-sm-bg.png');
+  background-size: cover;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+@media screen and (min-width: 576px) {
+  .bg-container {
+    background-image: url('https://assets.ccbp.in/frontend/react-js/stopwatch-lg-bg.png');
+    align-items: flex-start;
+  }
+}
+
+.heading {
+  font-family: 'Roboto';
+  font-size: 35px;
+  font-weight: 900;
+  color: #333333;
+}
+@media screen and (min-width: 576px) {
+  .heading {
+    margin-left: 270px;
+  }
+}
+
+@media screen and (min-width: 577px) and (max-width: 991px) {
+  .heading {
+    margin: auto;
+  }
+}
+
+.timer-container {
+  padding-top: 60px;
+  padding-bottom: 60px;
+  width: 90%;
+  background-color: #ffffff;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0px 4px 16px 0px #bfbfbf;
+}
+
+@media screen and (min-width: 577px) and (max-width: 991px) {
+  .timer-container {
+    margin: auto;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  .timer-container {
+    margin-left: 150px;
+  }
+}
+
+@media screen and (min-width: 576px) {
+  .timer-container {
+    max-width: 400px;
+  }
+}
+
+.timer-div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.timer-heading {
+  font-family: 'Roboto';
+  font-size: 25px;
+  color: #333333;
+  font-weight: 800;
+  margin: 0;
+  margin-inline-start: 10px;
+}
+.timer-count {
+  color: #333333;
+  font-family: 'Roboto';
+  font-size: 36px;
+  font-weight: 500;
+  margin-top: 0px;
+  margin-top: 5px;
+}
+
+@media screen and (min-width: 576px) {
+  .timer-count {
+    font-size: 64px;
+    margin-top: 5px;
+  }
+}
+
+.button {
+  border: none;
+  outline: none;
+  cursor: pointer;
+  color: #ffffff;
+  font-family: 'Roboto';
+  font-size: 18px;
+  font-weight: 900;
+  width: 30%;
+  height: 34px;
+
+  border-radius: 5px;
+}
+.btn-container {
+  margin-top: 20px;
+  width: 90%;
+  display: flex;
+  justify-content: space-between;
+}
+.green {
+  background-color: #1db05f;
+}
+.red {
+  background-color: #ef0d36;
+  /* margin-left: 10px;
+  margin-right: 10px; */
+}
+.orange {
+  background-color: #eaa800;
+}
